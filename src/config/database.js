@@ -1,4 +1,4 @@
-module.exports={
+module.exports = {
   dialect: 'postgres',
   host: '192.168.99.100',
   username: 'postgres',
@@ -7,6 +7,6 @@ module.exports={
   define: {
     timestamp: true,
     underscored: true,
-    underscoredAll: true
-  }
-  };
+    underscoredAll: true,
+  },
+};
